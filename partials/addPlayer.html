@@ -1,0 +1,22 @@
+<i class="close icon" ng-click="cancel()"></i>
+
+<div class="header">
+  Add a Player
+</div>
+
+<div class="content">
+  <div class="ui form">
+    <h4 class="ui dividing header">Please enter your name</h4>
+    <div class="field">       
+      <div class="ui icon input">
+        <input type="text" placeholder="name" name="name" id="name" ng-model="name">
+        <i class="user icon"></i>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="actions">
+  <div class="ui button" ng-click="cancel()">Cancel</div>
+  <div class="ui green button" ng-click="ok(name)">Add</div>
+</div>
