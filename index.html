@@ -1,13 +1,27 @@
 <!doctype html>
-<html lang="en">
+<html lang="en" ng-app="bowlingScoreApp">
 <head>
   <title>Bowling Score Calculator</title>
 
   <!-- Sematic Theme Style -->
   <link rel="stylesheet" href="styles/semantic.min.css">
+
+  <!-- Application Specfic Styles -->
+  <link rel="stylesheet" href="styles/main.css">
 </head>
 <body>
 
+  <main class="ui page grid">
+    <div class="row">
+      <div class="column">
+        <h1 class="ui header">Bowling Score Calculator</h1>
+
+        <div class="ui stacked segment" ng-controller="scoreController">
+
+        </div>
+      </div>
+    </div>
+  </main>
 
   <!-- Javascript -->
   <script src="libs/jquery-1.11.2.min.js"></script>
