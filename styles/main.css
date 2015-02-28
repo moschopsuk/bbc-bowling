@@ -7,3 +7,8 @@ body{
 	font-family: 'Open Sans', sans-serif;
 	margin: 50px 0;
 }
+
+.active-player {
+	background-color: #eeffe7 !important;
+	box-shadow: 0 0 0 1px #b7caa7 inset,0 1px 2px 0 rgba(0,0,0,.05) !important;
+}
